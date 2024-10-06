@@ -3,7 +3,7 @@ jobs:
   mybuildjob:
     docker:
       - image: circleci/node:14
-    step:
+    steps:
     - checkout
     - run: npm install
     - run: npm test
